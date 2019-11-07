@@ -10,7 +10,7 @@
 
 	.org	$2000
 
-	di						; no interrupts please, we're british
+	di						; no interrupts please, we're brutish
 
 	ld		sp,$7fff
 	ld		hl,$8000
